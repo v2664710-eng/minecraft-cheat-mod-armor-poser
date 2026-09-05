@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatmod",
+  "version": "1.0.0",
+  "name": "Cheat Mod",
+  "description": "Armor Poser Exploit - Чит мод для 1.21",
+  "authors": ["CheatDev"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.cheatmod.CheatMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.x",
+    "java": ">=21"
+  }
+}
